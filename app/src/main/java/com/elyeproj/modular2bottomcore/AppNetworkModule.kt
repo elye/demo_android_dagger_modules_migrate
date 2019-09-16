@@ -1,5 +1,6 @@
 package com.elyeproj.modular2bottomcore
 
+import com.elyeproj.core.BaseNetwork
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -8,5 +9,5 @@ import javax.inject.Singleton
 class AppNetworkModule {
     @Provides
     @Singleton
-    fun appNetworkModule() = AppNetwork("from AppNetworkModule")
+    fun appNetworkModule(): BaseNetwork = AppNetwork("from AppNetworkModule")
 }

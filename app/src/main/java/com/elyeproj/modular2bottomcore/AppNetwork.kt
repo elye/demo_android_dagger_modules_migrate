@@ -1,6 +1,8 @@
 package com.elyeproj.modular2bottomcore
 
-class AppNetwork(val name: String) {
+import com.elyeproj.core.BaseNetwork
+
+class AppNetwork(val name: String): BaseNetwork {
     override fun toString(): String {
         return "AppNetwork $name ${super.toString()} "
     }

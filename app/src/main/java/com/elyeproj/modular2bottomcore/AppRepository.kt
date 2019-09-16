@@ -1,6 +1,8 @@
 package com.elyeproj.modular2bottomcore
 
-class AppRepository(val name: String) {
+import com.elyeproj.core.BaseRepository
+
+class AppRepository(val name: String): BaseRepository {
     override fun toString(): String {
         return "AppRepository $name ${super.toString()} "
     }

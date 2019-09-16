@@ -1,5 +1,6 @@
 package com.elyeproj.modular2bottomcore
 
+import com.elyeproj.core.BaseRepository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -8,5 +9,5 @@ import javax.inject.Singleton
 class AppRepositoryModule {
     @Provides
     @Singleton
-    fun appRepository() = AppRepository("from AppRepositoryModule")
+    fun appRepository(): BaseRepository = AppRepository("from AppRepositoryModule")
 }

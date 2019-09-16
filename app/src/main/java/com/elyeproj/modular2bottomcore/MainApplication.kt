@@ -1,8 +1,8 @@
 package com.elyeproj.modular2bottomcore
 
-import android.app.Application
+import com.elyeproj.core.BaseApplication
 
-class MainApplication: Application() {
+class MainApplication: BaseApplication() {
     companion object {
         val baseComponent by lazy {
             DaggerMainComponent.create()

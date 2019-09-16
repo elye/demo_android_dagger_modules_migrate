@@ -2,4 +2,6 @@ package com.elyeproj.core
 
 import android.app.Application
 
-open class BaseApplication: Application()
+abstract class  BaseApplication: Application() {
+    abstract fun getBaseSubComponent(): BaseSubComponent
+}

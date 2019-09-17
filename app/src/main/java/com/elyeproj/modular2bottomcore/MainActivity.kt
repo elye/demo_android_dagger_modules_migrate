@@ -3,8 +3,8 @@ package com.elyeproj.modular2bottomcore
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.elyeproj.core.BaseNetwork
-import com.elyeproj.core.BaseRepository
+import com.elyeproj.base.BaseNetwork
+import com.elyeproj.base.BaseRepository
 import com.elyeproj.featureone.FeatureOneActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject

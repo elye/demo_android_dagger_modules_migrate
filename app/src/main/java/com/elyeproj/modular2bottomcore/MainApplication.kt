@@ -1,7 +1,7 @@
 package com.elyeproj.modular2bottomcore
 
-import com.elyeproj.core.BaseApplication
-import com.elyeproj.core.BaseSubComponent
+import com.elyeproj.base.BaseApplication
+import com.elyeproj.base.BaseSubComponent
 
 class MainApplication: BaseApplication() {
     companion object {

@@ -1,6 +1,6 @@
 package com.elyeproj.modular2bottomcore
 
-import com.elyeproj.core.BaseSubComponent
+import com.elyeproj.base.BaseSubComponent
 import dagger.Component
 import javax.inject.Singleton
 

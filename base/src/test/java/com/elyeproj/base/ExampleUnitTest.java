@@ -1,4 +1,4 @@
-package com.elyeproj.core;
+package com.elyeproj.base;
 
 import org.junit.Test;
 

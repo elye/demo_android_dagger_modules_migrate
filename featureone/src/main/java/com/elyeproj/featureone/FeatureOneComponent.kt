@@ -1,6 +1,6 @@
 package com.elyeproj.featureone
 
-import com.elyeproj.core.BaseSubComponent
+import com.elyeproj.base.BaseSubComponent
 import dagger.Component
 
 @Component(dependencies = [BaseSubComponent::class], modules = [FeatureOneDependentModule::class])

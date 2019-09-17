@@ -2,7 +2,7 @@ package com.elyeproj.featureone
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.elyeproj.core.BaseApplication
+import com.elyeproj.base.BaseApplication
 import kotlinx.android.synthetic.main.activity_feature_one.*
 import javax.inject.Inject
 

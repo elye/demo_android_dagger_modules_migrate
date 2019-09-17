@@ -1,7 +1,7 @@
 package com.elyeproj.featureone
 
-import com.elyeproj.core.BaseNetwork
-import com.elyeproj.core.BaseRepository
+import com.elyeproj.base.BaseNetwork
+import com.elyeproj.base.BaseRepository
 import dagger.Module
 import dagger.Provides
 

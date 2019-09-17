@@ -1,4 +1,4 @@
-package com.elyeproj.core;
+package com.elyeproj.base;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
